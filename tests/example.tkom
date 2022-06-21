@@ -1,0 +1,20 @@
+fn fib(var n)
+{
+	if(n <= 1)
+	{
+		return n;
+	}
+	else
+	{
+		return fib(n-1) + fib(n-2);
+	}
+}
+
+fn main()
+{
+	mut var n = fib(9);
+	n = float(n) + 0.01;
+	print("Hello");
+	print("\"Hello\"\n");
+	return n;
+}
